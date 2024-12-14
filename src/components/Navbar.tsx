@@ -21,7 +21,6 @@ const Navbar = () => {
         setNav(false)
     }
 
-
     return (
         <div> </div>
     )
