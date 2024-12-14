@@ -66,7 +66,8 @@ const Navbar = () => {
             </div>
 
             <motion.div>
-
+                    initial={false}
+                    animate={nav ? 'open' : 'closed'}
             </motion.div>
 
         </div>
