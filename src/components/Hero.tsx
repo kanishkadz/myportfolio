@@ -19,7 +19,7 @@ const Hero = () => {
                 className='absolute left-[280px] top-[170px]'
                 drag
             >
-                <Image src={cursor} height="190" width="190" alt="cursor" className='' draggable="false" />
+                <Image src={cursor} height="170" width="170" alt="cursor" className='' draggable="false" />
             </motion.div>
 
             <motion.div
