@@ -30,7 +30,7 @@ const Hero = () => {
             </motion.div>
         </div>
 
-        <p className='text-center text-xl max-w[500px' mx-auto>
+        <p className='text-center text-xl max-w[500px mx-auto mt-8 text-white/80'>
             I am a full-stack developer focused on creating websites that rpovide the best experience for users.
         </p>
 
