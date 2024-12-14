@@ -8,7 +8,9 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div className='relative overflow-clip bg-[linear-gradient(to_bottom, #000, #2b1942_35%, #8f5c55_60%, #dbaf6e_80%)]'>
+
+    </div>
   )
 }
 
