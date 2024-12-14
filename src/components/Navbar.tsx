@@ -73,8 +73,10 @@ const Navbar = () => {
                 
                     <ul>
                         {navLinks.map((link, index) => (
-                            <li>
-                                
+                            <li key={index}>
+                                <Link href={link.path} onClick={closeNav}>
+                                {link.title}
+                                </Link>
                             </li>
                         ))}
                     </ul>
