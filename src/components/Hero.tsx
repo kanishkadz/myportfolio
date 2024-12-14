@@ -14,6 +14,15 @@ const Hero = () => {
                 <h1 className='text-[#98B4CE]'>Hi, I am</h1>
                 <h1 className='text-[#E48A57]'>Kanishka Anand</h1>
             </div>
+
+            <motion.div
+                className='absolute left-[280px] top-[170px]'
+                drag
+            >
+            </motion.div>
+
+
+
         </div>
     </div>
   )
