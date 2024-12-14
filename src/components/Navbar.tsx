@@ -34,7 +34,7 @@ const Navbar = () => {
                     ))}
                     <li>
                         <a>
-                            <h1>Contact Me</h1>
+                            <h1 className="text-lg font-bold text-white/70 cursor-pointer">Contact Me</h1>
                             <div className="relative">
                                 <div className="absolute w-2/3 h-1 transition-all duration-300 ease-out bg-orange-400 rounded-full group-hover:w-full"></div>
                                 <div className="mt-1 absolute w-1/3 h-1 transition-all duration-300 ease-out bg-orange-600 rounded-full group-hover:w-full"></div>
