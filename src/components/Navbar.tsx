@@ -30,7 +30,11 @@ const Navbar = () => {
             }
         },
         closed: {
-
+            x: '-100%',
+            transition : {
+                stiffness: 20,
+                damping: 15
+            }
         }
     }
 
