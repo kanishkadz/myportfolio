@@ -21,6 +21,19 @@ const Navbar = () => {
         setNav(false)
     }
 
+    const menuVariants = {
+        open: {
+            x:0,
+            transition: {
+                stiffness: 20,
+                damping: 15
+            }
+        },
+        closed: {
+
+        }
+    }
+
     return (
         <div className="text-white/70 py-6">
             <div className="hidden md:flex items-center px-4 py-2 mx-auto max-w-[400px]">
@@ -47,6 +60,10 @@ const Navbar = () => {
             <div onClick={toggleNav} className="md:hidden absolute top-5 right-5 border rounded border-white/70 p-2 z-50 text-white/70">
                 {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
             </div>
+
+            <motion.div>
+
+            </motion.div>
 
         </div>
     )
