@@ -7,8 +7,6 @@ import { motion } from 'framer-motion';
 const navLinks = [
     { title: "About", path: "#about" },
     { title: "Portfolio", path: "#portfolio" },
-    { title: "About", path: "#about" },
-    { title: "Portfolio", path: "#portfolio" },
 ];
 
 const Navbar = () => {
@@ -25,7 +23,7 @@ const Navbar = () => {
 
     const menuVariants = {
         open: {
-            x:0,
+            x: 0,
             transition: {
                 stiffness: 20,
                 damping: 15
@@ -33,7 +31,7 @@ const Navbar = () => {
         },
         closed: {
             x: '-100%',
-            transition : {
+            transition: {
                 stiffness: 20,
                 damping: 15
             }
@@ -67,22 +65,23 @@ const Navbar = () => {
                 {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
             </div>
 
-            <motion.div>
-                    initial={false}
-                    animate={nav ? 'open' : 'closed'}
-                    variants={menuVariants}
-                    className="fixed left-0 top-0 w-full z-40 bg-black/90"
-                
-                    <ul className="text-4xl font-semibold my-24 text-center space-y-8">
-                        {navLinks.map((link, index) => (
-                            <li key={index}>
-                                <Link href={link.path} onClick={closeNav}>
+            <motion.div
+                initial={false}
+                animate={nav ? 'open' : 'closed'}
+                variants={menuVariants}
+                className="fixed left-0 top-0 w-full z-40 bg-black/90"
+            >
+                <ul className="text-4xl font-semibold my-24 text-center space-y-8">
+                    {navLinks.map((link, index) => (
+                        <li key={index}>
+                            <Link href={link.path} onClick={closeNav}>
                                 {link.title}
-                                </Link>
-                            </li>
-                        ))}
-                    </ul>
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
             </motion.div>
+
 
         </div>
     )
