@@ -11,10 +11,14 @@ const navLinks = [
 
 const Navbar = () => {
 
-    const [nav, setNav] = useState(false);
+    const [nav, setNav] = useState(false)
 
     const toggleNav = () => {
         setNav(!nav)
+    }
+
+    const closeNav = () => {
+        setNav(false)
     }
 
 
