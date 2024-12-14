@@ -44,7 +44,7 @@ const Navbar = () => {
                 </ul>
             </div>
 
-            <div onClick={toggleNav} className="md:hidden absolute top-5 right-5 border rounded border-white/70 p-2 z-50">
+            <div onClick={toggleNav} className="md:hidden absolute top-5 right-5 border rounded border-white/70 p-2 z-50 text-white/70">
                 {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
             </div>
 
