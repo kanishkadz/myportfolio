@@ -45,7 +45,7 @@ const Navbar = () => {
             </div>
 
             <div>
-                {nav ? '' : <AiOutlineMenu size={30} />}
+                {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
             </div>
 
         </div>
