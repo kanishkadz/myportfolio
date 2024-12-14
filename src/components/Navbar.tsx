@@ -69,9 +69,9 @@ const Navbar = () => {
                     initial={false}
                     animate={nav ? 'open' : 'closed'}
                     variants={menuVariants}
-                    className=""
+                    className="fixed left-0 top-0 w-full z-40 bg-black/90"
                 
-                    <ul>
+                    <ul className="text-4xl font-semibold my-24 text-center space-y-8">
                         {navLinks.map((link, index) => (
                             <li key={index}>
                                 <Link href={link.path} onClick={closeNav}>
