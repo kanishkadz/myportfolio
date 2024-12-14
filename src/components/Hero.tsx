@@ -8,9 +8,10 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className="py-24 relative overflow-clip bg-[linear-gradient(to_bottom, #000, #2B1942_35%, #8F5C55_60%, #DBAF6E_80%)]">
+    <div className="py-24 relative overflow-clip bg-gradient-to-b from-black via-[#2B1942] via-35% via-[#8F5C55] via-60% to-[#DBAF6E] to-80%">
 
-        <div className='absolute rounded-[50%] w-[3000px] h-[1300px] top-[550px] left-[50%] -translate-x-1/2 bg-[radial-gradient(closest-side, #000_80%, #2B1942)]'></div>
+    <div className='absolute rounded-[50%] w-[3000px] h-[1300px] top-[550px] left-[50%] -translate-x-1/2' style={{background: 'radial-gradient(closest-side, #000 80%, #2B1942)',}}></div>
+
 
         <div className='relative'>
             <div className='text-8xl font-bold text-center'>
