@@ -34,6 +34,8 @@ const Hero = () => {
             I am a full-stack developer focused on creating websites that rpovide the best experience for users.
         </p>
 
+        <Image src={profilepic} alt="profile picture" className='h-auto w-auto mx-auto' />
+
     </div>
   )
 }
