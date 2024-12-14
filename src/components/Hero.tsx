@@ -9,6 +9,10 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className="py-24 relative overflow-clip bg-[linear-gradient(to_bottom, #000, #2B1942_35%, #8F5C55_60%, #DBAF6E_80%)]">
+
+        <div className='absolute rounded-[50%] w-[3000px] h-[1300px]'></div>
+
+
         <div>
             <div className='text-8xl font-bold text-center'>
                 <h1 className='text-[#98B4CE]'>Hi, I am</h1>
