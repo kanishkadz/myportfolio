@@ -13,7 +13,11 @@ const Navbar = () => {
 
     const [nav, setNav] = useState(false);
 
-    
+    const toggleNav = () => {
+        setNav(!nav)
+    }
+
+
     return (
         <div> </div>
     )
