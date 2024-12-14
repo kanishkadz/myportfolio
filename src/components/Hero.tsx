@@ -32,13 +32,14 @@ const Hero = () => {
             >
                 <Image src={lightning} height="120" width="120" alt="cursor" className='' draggable="false" />
             </motion.div>
-        </div>
+        
 
         <p className='text-center text-xl max-w[500px mx-auto mt-8 text-white/80'>
             I am a full-stack developer focused on creating websites that rpovide the best experience for users.
         </p>
 
         <Image src={profilepic} alt="profile picture" className='h-auto w-auto mx-auto' />
+        </div>
 
     </div>
   )
