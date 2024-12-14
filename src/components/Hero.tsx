@@ -1,7 +1,7 @@
 "use client";
 import Image from 'next/image';
 import cursor from "../assets/icon1.png";
-import message from "../assets/icon2.png";
+import lightning from "../assets/icon2.png";
 import { motion } from 'framer-motion';
 import profilepic from "../assets/profilepic.png";
 import React from 'react'
@@ -19,6 +19,14 @@ const Hero = () => {
                 className='absolute left-[280px] top-[170px]'
                 drag
             >
+                <Image src={cursor} height="190" width="190" alt="cursor" className='' draggable="false" />
+            </motion.div>
+
+            <motion.div
+                className='absolute left-[280px] top-[170px]'
+                drag
+            >
+                <Image src={lightning} height="190" width="190" alt="cursor" className='' draggable="false" />
             </motion.div>
 
 
