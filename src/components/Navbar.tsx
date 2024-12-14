@@ -8,3 +8,11 @@ const navLinks = [
     { title: "About", path: "#about" },
     { title: "Portfolio", path: "#portfolio" },
 ];
+
+const Navbar = () => {
+    return (
+        <div> </div>
+    )
+}
+
+export default Navbar
