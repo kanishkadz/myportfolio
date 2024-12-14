@@ -11,7 +11,7 @@ const Hero = () => {
     <div className="py-24 relative overflow-clip bg-[linear-gradient(to_bottom, #000, #2B1942_35%, #8F5C55_60%, #DBAF6E_80%)]">
         <div>
             <div className='text-8xl font-bold text-center'>
-                <h1>Hi, I am</h1>
+                <h1 className='text-[#98B4CE]'>Hi, I am</h1>
                 <h1>Kanishka Anand</h1>
             </div>
         </div>
