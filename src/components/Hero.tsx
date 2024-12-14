@@ -28,10 +28,12 @@ const Hero = () => {
             >
                 <Image src={lightning} height="120" width="120" alt="cursor" className='' draggable="false" />
             </motion.div>
-
-
-
         </div>
+
+        <p>
+            I am a full-stack developer focused on creating websites that rpovide the best experience for users.
+        </p>
+
     </div>
   )
 }
