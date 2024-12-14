@@ -32,6 +32,15 @@ const Navbar = () => {
                             </Link>
                         </li>
                     ))}
+                    <li>
+                        <a>
+                            <h1>Contact Me</h1>
+                            <div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
             </div>
 
