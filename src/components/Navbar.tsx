@@ -10,6 +10,10 @@ const navLinks = [
 ];
 
 const Navbar = () => {
+
+    const [nav, setNav] = useState(false);
+
+    
     return (
         <div> </div>
     )
