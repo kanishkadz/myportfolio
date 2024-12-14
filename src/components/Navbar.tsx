@@ -70,10 +70,12 @@ const Navbar = () => {
                     animate={nav ? 'open' : 'closed'}
                     variants={menuVariants}
                     className=""
-                >
+                
                     <ul>
                         {navLinks.map((link, index) => (
-                            <li></li>
+                            <li>
+                                
+                            </li>
                         ))}
                     </ul>
             </motion.div>
