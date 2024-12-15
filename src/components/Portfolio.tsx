@@ -44,6 +44,13 @@ const Portfolio = () => {
                 viewport={{ once: true }}
                 transition={{ duration:0.5, delay: 0.25 }}
                 >
+                    <div>
+
+                    </div>
+
+                    <div className="flex justify-center items-center">
+                        <Image src={project.src} alt={project.title} className="h-[400px] w-auto object-cover" />
+                    </div>
 
                 </motion.div>
             ))}
