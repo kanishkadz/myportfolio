@@ -19,6 +19,12 @@ const Contact = () => {
                 </li>
             </ul>
         </div>
+
+        <div className='bg-white/10 p-6 rounded-xl max-w-[550px]'>
+
+        </div>
+
+
     </div>
   )
 }
