@@ -46,7 +46,12 @@ const Portfolio = () => {
                 >
                     <div>
                         <h2>{`0${index + 1}`}</h2>
-
+                        <h2>{project.title}</h2>
+                        <p>{project.desc}</p>
+                        <p>{project.devStack}</p>
+                        <div>
+                            <a href={project.link} className="mr-6"> Link </a>
+                        </div>
                     </div>
 
                     <div className="flex justify-center items-center">
