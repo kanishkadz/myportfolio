@@ -18,8 +18,8 @@ const About = () => {
         <div>
           <Image src={book} alt='book' className='w-auto h-[130px]' />
           <div>
-            <h2 className='text-2xl font-bold'>xxxx</h2>
-            <p>xxxx</p>
+            <h2 className='text-2xl font-bold tetx-white/80'>xxxx</h2>
+            <p className='text-lg text-white/70 mt-2'>xxxx</p>
           </div>
         </div>
 
