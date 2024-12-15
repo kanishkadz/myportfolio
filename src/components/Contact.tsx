@@ -8,9 +8,13 @@ const Contact = () => {
   return (
     <div className='max-w-[1000px] mx-auto flex flex-col lg:flex-row text-white/70 p-8 rounded-lg space-y-8 lg:space-y-0 lg:space-x-8' id="contact">
         <div className='flex justify-center items-center'>
-            <ul>
+            <ul className='space-y-4'>
                 <li className='flex items-center'>
                     <Image src={phone} alt="phone" className='h-[110px] w-auto mr-6' />
+                    <p className='text-xl'>+91-9478412546</p>
+                </li>
+                <li className='flex items-center'>
+                    <Image src={mail} alt="mail" className='h-[110px] w-auto mr-6' />
                     <p className='text-xl'>+91-9478412546</p>
                 </li>
             </ul>
