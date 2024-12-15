@@ -15,6 +15,13 @@ const About = () => {
 
 
         <div className='col-span-5 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'>
+        <div>
+          <Image src={book} alt='book' className='w-auto h-[130px]' />
+          <div>
+            <h2 className='text-2xl font-bold'>xxxx</h2>
+            <p>xxxx</p>
+          </div>
+        </div>
 
         </div>
 
