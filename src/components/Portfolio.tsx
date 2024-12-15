@@ -45,6 +45,7 @@ const Portfolio = () => {
                 transition={{ duration:0.5, delay: 0.25 }}
                 >
                     <div>
+                        <h2>{`0${index + 1}`}</h2>
 
                     </div>
 
