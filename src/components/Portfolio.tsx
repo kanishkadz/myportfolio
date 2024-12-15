@@ -49,8 +49,9 @@ const Portfolio = () => {
                         <h2>{project.title}</h2>
                         <p>{project.desc}</p>
                         <p>{project.devStack}</p>
-                        <div>
+                        <div className="w-64 h-[1px] bg-gray-400 my-4">
                             <a href={project.link} className="mr-6"> Link </a>
+                            <a href={project.git}>Git</a>
                         </div>
                     </div>
 
