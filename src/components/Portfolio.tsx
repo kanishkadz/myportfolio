@@ -42,7 +42,7 @@ const Portfolio = () => {
                 <span className='text-orange-400'>Projects</span>
             </h1>
 
-            <div className="max-w-[1200px] mx-auto space-y-24">
+            <div className="max-w-[1200px] mx-auto mt-40 space-y-24">
                 {projects.map((project, index) => (
                     <motion.div
                         key={index}
@@ -56,7 +56,7 @@ const Portfolio = () => {
                             <h2 className="text-7xl my-4 text-white/70">{`0${index + 1}`}</h2>
                             <h2 className="text-4xl">{project.title}</h2>
                             <p className="text-lg text-white/70 break-words p-4">{project.desc}</p>
-                            <p className="text-xl text-orange-500 font-semibold">{project.devStack}</p>
+                            <p className="text-xl text-orange-400 font-semibold">{project.devStack}</p>
                             <div className="w-64 h-[1px] bg-gray-400 my-4">
                                 <a href={project.link} className="mr-6"> Link </a>
                                 <a href={project.git}>Git</a>
