@@ -31,7 +31,7 @@ const Contact = () => {
                     <input className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400' placeholder='Phone' />
                 </div>
                 <textarea className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400' placeholder='Your Message' />
-                <button />
+                <button className='bg-orange-700 hover:bg-orange-500 text-white px-6 py-2 w-full'>Send Message</button>
             </form>
 
         </div>
