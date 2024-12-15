@@ -1,8 +1,9 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import project from "../assets/project.jpg";
-import project1 from "../assets/project.jpg";
+import proj2 from "../assets/proj2.jpg";
+import proj3 from "../assets/proj3.jpg";
+import proj4 from "../assets/proj4.jpg";
 import React from 'react'
 
 const projects = [
@@ -12,7 +13,7 @@ const projects = [
         devStack: "xxx",
         link: "#",
         git: "#",
-        src: project
+        src: proj2
     },
     {
         title: "xxx",
@@ -20,7 +21,7 @@ const projects = [
         devStack: "xxx",
         link: "#",
         git: "#",
-        src: project
+        src: proj3
     },
     {
         title: "xxx",
@@ -28,8 +29,7 @@ const projects = [
         devStack: "xxx",
         link: "#",
         git: "#",
-        src: project
-    },
+        src: proj4
 ]
 
 const Portfolio = () => {
