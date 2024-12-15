@@ -25,7 +25,7 @@ const Contact = () => {
             <p className='text-white/70 mb-6'>Send me a message and let's schedule a call</p>
             <form className='space-y-4'>
                 <div>
-                    <input />
+                    <input className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400' placeholder='First Name' />
                 </div>
                 <textarea />
                 <button />
