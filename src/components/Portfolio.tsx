@@ -36,7 +36,15 @@ const Portfolio = () => {
   return (
     <div className="text-white bg-gradient-to-b from-black to-[#381a5f] py-18" id="portfolio">
         <div className="max-w-[1200px] mx-auto space-y-24">
+            {projects.map((project, index) => (
+                <motion.div
+                key={index}
+                initial={{ opacity:0, y: 75}}
+                whileInView={{opacity: 1, y: 0}}
+                >
 
+                </motion.div>
+            ))}
         </div>
         
     </div>
