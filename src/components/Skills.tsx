@@ -11,6 +11,9 @@ const skillIcons = [
 const Skills = () => {
   return (
     <div className='bg-[linear-gradient(to_top, #000, #381a5f_80%)] py-32'>
+      <div className='text-white max-w-[700px] mx-auto p-8 text-center'>
+
+      </div>
 
     </div>
   )
