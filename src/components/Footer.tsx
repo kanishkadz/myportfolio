@@ -7,7 +7,7 @@ export const Footer = () => {
         <h1 className='text-2xl font-bold'>Kanishka Anand</h1>
         <div>
             <a href="#" className='hover:text-gray-300'>
-
+                <FaLinkedin size={24} />
             </a>
         </div>
     </div>
