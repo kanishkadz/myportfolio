@@ -12,7 +12,14 @@ const Skills = () => {
   return (
     <div className='bg-[linear-gradient(to_top, #000, #381a5f_80%)] py-32'>
       <div className='text-white max-w-[700px] mx-auto p-8 text-center'>
-
+        <h2 className='text-6xl font-bold mb-4'>What I do</h2>
+        <div>
+          {skillIcons.map((skills, index) => (
+            <div key={index} className='flex flex-col justify-between items-center bg-white/10 p-4 rounded-xl'>
+              {}
+            </div>
+          ))}
+        </div>
       </div>
 
     </div>
