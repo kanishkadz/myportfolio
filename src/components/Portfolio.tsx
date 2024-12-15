@@ -47,10 +47,10 @@ const Portfolio = () => {
                 className={`flex ${index % 2 == 1 ? "flex-col-reverse md:flex-row-reverse gap-12" : "flex-col md:flex-row"}`}
                 >
                     <div className="space-y-2 max-w-[550px]">
-                        <h2>{`0${index + 1}`}</h2>
-                        <h2>{project.title}</h2>
-                        <p>{project.desc}</p>
-                        <p>{project.devStack}</p>
+                        <h2 className="text-7xl my-4 text-white/70">{`0${index + 1}`}</h2>
+                        <h2 className="text-4xl">{project.title}</h2>
+                        <p className="text-lg text-white/70 break-words p-4">{project.desc}</p>
+                        <p className="text-xl text-orange-500 font-semibold">{project.devStack}</p>
                         <div className="w-64 h-[1px] bg-gray-400 my-4">
                             <a href={project.link} className="mr-6"> Link </a>
                             <a href={project.git}>Git</a>
