@@ -36,6 +36,9 @@ const projects = [
 const Portfolio = () => {
   return (
     <div className="text-white bg-gradient-to-b from-black to-[#381a5f] py-18 mt-40" id="portfolio">
+
+        
+
         <div className="max-w-[1200px] mx-auto space-y-24">
             {projects.map((project, index) => (
                 <motion.div
