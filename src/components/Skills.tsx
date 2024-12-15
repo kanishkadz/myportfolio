@@ -15,7 +15,7 @@ const Skills = () => {
         <h2 className='text-6xl font-bold mb-4'>What I do</h2>
         <div className='grid grid-cols-2 md:grid-cols-4 space-x-4'>
           {skillIcons.map((skill, index) => (
-            <div key={index} className='flex flex-col justify-between items-center bg-white/10 p-4 rounded-xl'>
+            <div key={index} className='h-[260px] w-[220px] flex flex-col justify-between items-center bg-white/10 p-4 rounded-xl'>
               {skill.icon}
               <p className='mt-2'>{skill.label}</p>
 
