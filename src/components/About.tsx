@@ -25,6 +25,7 @@ const About = () => {
         </div>
 
         <div className='w-full col-span-3 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'>
+        <div className='absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy'></div>
           <div className='flex flex-row p-6'>
             <Image src={pc} alt='pc' className='w-auto h-[130px]' />
             <div className='flex flex-col mt-2'>
@@ -35,6 +36,7 @@ const About = () => {
         </div>
 
         <div className='w-full col-span-3 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'>
+        <div className='absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy'></div>
           <div className='flex flex-row p-6'>
             <Image src={card} alt='card' className='w-auto h-[130px]' />
             <div className='flex flex-col mt-2'>
@@ -45,6 +47,7 @@ const About = () => {
         </div>
 
         <div className='w-full col-span-5 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'>
+        <div className='absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy'></div>
           <div className='flex flex-row p-6'>
             <Image src={finance} alt='finance' className='w-auto h-[130px]' />
             <div className='flex flex-col mt-2'>
