@@ -50,7 +50,7 @@ const Portfolio = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: 0.25 }}
-                        className={`flex ${index % 2 == 1 ? "flex-col-reverse md:flex-row-reverse gap-12" : "flex-col md:flex-row"}`}
+                        className={`mt-12 flex ${index % 2 == 1 ? "flex-col-reverse md:flex-row-reverse gap-12" : "flex-col md:flex-row"}`}
                     >
                         <div className="space-y-2 max-w-[550px]">
                             <h2 className="text-7xl my-4 text-white/70">{`0${index + 1}`}</h2>
@@ -64,7 +64,7 @@ const Portfolio = () => {
                         </div>
 
                         <div className="flex justify-center items-center">
-                            <Image src={project.src} alt={project.title} className="h-[350px] w-[500px] object-cover" />
+                            <Image src={project.src} alt={project.title} className="h-[350px] w-[500px] object-cover border rounded border-gray-700" />
                         </div>
 
                     </motion.div>
