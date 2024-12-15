@@ -44,7 +44,7 @@ const Portfolio = () => {
                 viewport={{ once: true }}
                 transition={{ duration:0.5, delay: 0.25 }}
                 >
-                    <div>
+                    <div className="space-y-2 max-w-[550px]">
                         <h2>{`0${index + 1}`}</h2>
                         <h2>{project.title}</h2>
                         <p>{project.desc}</p>
