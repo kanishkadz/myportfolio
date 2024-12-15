@@ -43,7 +43,7 @@ const Portfolio = () => {
                 whileInView={{opacity: 1, y: 0}}
                 viewport={{ once: true }}
                 transition={{ duration:0.5, delay: 0.25 }}
-                className={`flex ${index % 2 == 1 ? "flex-col-reverse md:flex-row-reverse gap-12" : " "}`}
+                className={`flex ${index % 2 == 1 ? "flex-col-reverse md:flex-row-reverse gap-12" : "flex-col md:flex-row"}`}
                 >
                     <div className="space-y-2 max-w-[550px]">
                         <h2>{`0${index + 1}`}</h2>
