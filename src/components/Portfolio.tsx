@@ -34,7 +34,12 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <div className="text-white bg-gradient-to-b from-black to-[#381a5f] py-18" id="portfolio">
+        <div className="max-w-[1200px] mx-auto space-y-24">
+
+        </div>
+        
+    </div>
   )
 }
 
