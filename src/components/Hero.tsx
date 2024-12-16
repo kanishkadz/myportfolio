@@ -20,14 +20,14 @@ const Hero = () => {
             </div>
 
             <motion.div
-                className='absolute left-[280px] top-[170px]'
+                className='hidden md:block absolute left-[280px] top-[170px]'
                 drag
             >
                 <Image src={cursor} height="170" width="170" alt="cursor" className='' draggable="false" />
             </motion.div>
 
             <motion.div
-                className='absolute right-[220px] top-[20px]'
+                className='hidden md:block absolute right-[220px] top-[20px]'
                 drag
             >
                 <Image src={lightning} height="120" width="120" alt="cursor" className='' draggable="false" />
