@@ -5,9 +5,7 @@ This is a **Personal Portfolio Website** built using **HTML, CSS, and JavaScript
 
 ## 📱 Features  
 - **About Me:** A dedicated section to introduce myself and my expertise.  
-- **Projects Showcase:** Displays my projects with descriptions, technologies used, and links.  
 - **Skills Section:** Highlights my technical skills and proficiencies.  
-- **Contact Form:** Allows visitors to send direct messages.  
 - **Responsive Design:** Ensures a seamless experience across all devices.  
 
 ---
@@ -16,5 +14,5 @@ This is a **Personal Portfolio Website** built using **HTML, CSS, and JavaScript
 - **Languages:** HTML, CSS, JavaScript  
 - **Styling:** CSS for a visually appealing UI  
 - **Interactivity:** JavaScript for dynamic elements  
-- **Deployment:** Hosted on GitHub Pages / Vercel (if applicable)  
+- **Deployment:** Vercel 
 
